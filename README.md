@@ -1,16 +1,17 @@
-# flutter_application
+# News App
 
-A new Flutter project.
+A flutter news mobile application, integrating with the NewsAPI to fetch and display the latest news articles.
 
-## Getting Started
+## Brief Explanation
 
-This project is a starting point for a Flutter application.
+- *API Integration*: Utilized the Dio package for efficient HTTP requests and API integration, handling data fetching and error management.
+- *State Management*: Implemented state management using the FutureBuilder widget to handle asynchronous data fetching and UI updates.
+- Dynamic Category Filtering*: Created a dynamic UI with category filtering, allowing users to browse news articles by different categories such as Business, Entertainment, Health, Science, Sports, and Technology.
+- *Custom UI Components*: Designed and developed custom UI components, including news tiles and category cards, ensuring a visually appealing and user-friendly interface.
+- *Error Handling and Image Loading*: Implemented error handling and fallback mechanisms for image loading, ensuring a smooth user experience even with missing or incorrect data.
+- *Navigation and Routing*: Managed navigation and routing within the app using Flutter's Navigator and MaterialPageRoute, enabling smooth transitions between different views and categories.
 
-A few resources to get you started if this is your first Flutter project:
+## Resources
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Used API(s) in the app:
+- [newsAPI](https://newsapi.org/)
