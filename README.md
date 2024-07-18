@@ -14,4 +14,4 @@ A flutter news mobile application, integrating with the NewsAPI to fetch and dis
 ## Resources
 
 Used API(s) in the app:
-- [newsAPI](https://newsapi.org/)
+- [NewsAPI](https://newsapi.org/)
